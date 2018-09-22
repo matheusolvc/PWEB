@@ -306,9 +306,7 @@ footer {
 }
 
 .lightbox:target {
-  /** Remove default browser outline */
   outline: none;
-  /** Unhide lightbox **/
   display: block;
 }
 
@@ -515,6 +513,3 @@ textarea {
 }
   
 }
-
-
-/* necessary to give position: relative to parent. */
